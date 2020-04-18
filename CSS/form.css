@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: #ddd;
+	font-family: Arial ,'Crete Round', serif;
+}
+
+.container {
+	height: 500px;
+	width: 100%;
+	margin: 80px 150px 80px 0;
+	padding: 0 150px;
+}
+.container div {
+	display: inline;
+}
+
+
+/**** BLOCK  GAUCHE ****/
+.container .block-left {
+	float: left;
+	background: #fff;
+	height: 500px; 
+	width: 50%;
+}
+
+.container .block-left h4 {
+	color: #000;
+	font-size: 30px;
+	padding: 50px 40px 20px 50px;
+}
+
+.container .block-left p {
+	color: #000;
+	font-size: 15px;
+	padding: 20px 50px;
+}
+
+.container .block-left p a {
+	text-decoration: none;
+}
+
+.container .block-left form {
+	margin: 0 40px 20px 50px;
+}
+
+.container .block-left form > div {
+	display: block;
+}
+
+.container .block-left form div > input[type="user"], input[type="password"] {
+	height: 30px;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid grey;
+	margin: 15px 0;
+}
+
+.container .block-left form div > input::placeholder {
+	color: #555;
+	font-size: 16px;
+}
+
+.container .block-left form .checkbox input[type="checkbox"] {
+	margin: 0 10px;
+}
+
+.container .block-left form .checkbox label {
+	font-size: 15px;
+	color: #606162;
+}
+
+.container .block-left form .checkbox a {
+	float: right;
+	text-decoration: none;
+	color: #606162;
+	font-size: 14px;
+}
+
+.container .block-left form button {
+	background: #1961d7;
+	border: none;
+	padding: 15px;
+	color: #fff;
+	font-size: 18px;
+	width: 30%;
+	font-weight: bold;
+	border-radius: 60px;
+	margin: 15px 0;
+	box-shadow: 0px 5px 8px 4px #70cef1;
+	cursor: pointer;
+}
+
+.container .block-left .login-logo {
+	display: inline-flex;
+
+}
+
+.container .block-left .login-logo .logo img {
+	height: 40px;
+	display: inline-block;
+}
+
+
+/**** BLOCK A DROITE ****/
+.container .block-right {
+	float: right;
+	height: 500px;
+	width: 50%; 
+	background-image: url(../images/image-font.jpg);
+}
+
+.container .block-right .content {
+	position: absolute;
+	margin: 10px;
+	padding: 100px;
+}
+
+.container .block-right .content .title {
+	color: #fff;
+	text-align: center;
+	padding: 100px 60px;
+}
+
+.container .block-right .content p {
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	padding: 30px 0;
+}
